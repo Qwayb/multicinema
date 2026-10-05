@@ -1,0 +1,706 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+body {
+    background-color: #2C2C54;
+    line-height: 130%;
+    font-family: 'Gilroy Medium';
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'Gilroy Medium';
+    src: url('fonts/Gilroy-Medium.eot');
+    src: url('fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Medium.woff') format('woff'),
+        url('fonts/Gilroy-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('fonts/Gilroy-Bold.eot');
+    src: url('fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Gilroy-Bold.woff') format('woff'),
+        url('fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.first-shape {
+    position: absolute;
+    right: 0;
+}
+
+.second-shape {
+    position: absolute;
+    top: 962px;
+}
+
+.therd-shape {
+    position: absolute;
+    top: 2621px;
+    max-width: 1903px;
+}
+
+.fourth-shape {
+    position: absolute;
+    top: 3810px;
+    max-width: 1903px;
+}
+
+.container-shapes {
+    max-width: 1904px;
+    margin: 0 auto;
+    z-index: -1;
+    position: relative;
+}
+
+.header {
+    padding: 30px 0 0 0;
+    margin: 0 0 60px 0;
+}
+
+.container {
+    max-width: 1660px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 98px;
+    align-content: stretch;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    gap: 120px;
+}
+
+.right-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.catalog {
+    padding: 0 462px 0 0;
+    margin: 0 0 232px 0;
+}
+
+.h1 {
+    font-family: 'Gilroy Bold';
+    font-size: 80px;
+    margin: 0 0 51px;
+    line-height: 95%;
+}
+
+.discripton-catalog {
+    max-width: 658px;
+    margin: 0 0 67px;
+    line-height: 130%;
+}
+
+.button-catalog {
+    padding: 22px 56px;
+    background-color: #686DE0;
+    color: #2C2C54;
+    font-family: 'Gilroy Bold';
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.block-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.title {
+    font-family: 'Gilroy Bold';
+    font-size: 50px;
+    line-height: 95%;
+}
+
+.title-button {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.bestfilm-button {
+    padding: 15px 391px;
+    background-color: #686DE0;
+    color: #2C2C54;
+    font-family: 'Gilroy Bold';
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.bestfilm-card-img {
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.bestfilm-section {
+    margin-bottom: 207px;
+}
+
+.bestfilm-body {
+    margin: 0 auto;
+    display: grid;
+    background-color: #2C2C54;
+    padding: 30px 98px 32px;
+    max-width: 1172px;
+    border-radius: 20px;
+    justify-items: center;
+    box-shadow: rgba(146, 146, 146, 0.2) 0 0 30px 0;
+
+}
+
+.wanted-to-see-card-img {
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.wanted-to-see-card {
+    margin: 0 auto;
+    display: grid;
+    background-color: #2C2C54;
+    padding: 30px 35.25px 35px;
+    max-width: 420px;
+    border-radius: 20px;
+    justify-items: center;
+    box-shadow: rgba(146, 146, 146, 0.2) 0 0 30px 0;
+}
+
+.wanted-to-see-button {
+    padding: 15px 94px;
+    background-color: #686DE0;
+    color: #2C2C54;
+    font-family: 'Gilroy Bold';
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.wanted-to-see-body {
+    display: flex;
+    max-width: 1300px;
+    height: 655px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.wanted-to-see-section {
+    margin-bottom: 340px;
+}
+
+.block-head-news {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 50px 50%;
+}
+
+.news-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.news-right-block {
+    max-width: 830px;
+}
+
+.line {
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.news-text {
+    margin: 0 0 0 16px;
+}
+
+.news-title {
+    font-size: 30px;
+    font-family: 'Gilroy Bold';
+    text-decoration: underline;
+    margin-bottom: 8.5px;
+}
+
+.left-block {
+    background-color: black;
+    border-radius: 30px;
+    max-width: 700px;
+    height: 470px;
+}
+
+.left-block {
+    background-image: url('img/news.jpg');
+    padding: 312px 139px 42px 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.left-block p {
+    position: relative;
+    font-size: 30px;
+    font-family: 'Gilroy Bold';
+    z-index: 12;
+}
+
+.news-block {
+    margin-bottom: 346px;
+    position: relative;
+    overflow: hidden;
+}
+
+.left-block::before {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    width: 1000px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    content: '';
+    opacity: 0.27;
+}
+
+
+.block-head-forum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 153px;
+}
+
+.forum-block {
+    display: flex;
+    max-width: 930px;
+}
+
+.forum-block-text {
+    background-color: #2C2C54;
+    padding: 45px 47px;
+    height: 308px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.forum-block-title {
+    font-size: 25px;
+    font-family: 'Gilroy Bold';
+    margin-bottom: 15px;
+}
+
+.forum-block-dis {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.forum-block-text-more {
+    font-size: 20px;
+    color: #686DE0;
+}
+
+.forum-block-img img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.forum-block-text-croped {
+    background-color: #2C2C54;
+    padding: 45px 47px;
+    height: 308px;
+    border-radius: 20px;
+}
+
+.forum-block-croped {
+    display: flex;
+    max-width: 680px;
+}
+
+.forum-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 101px;
+}
+
+.forum-section {
+    margin-bottom: 45px;
+}
+
+.footer {
+    background-color: #2C2C54;
+    padding: 60px 0 30px 0;
+}
+
+.mail-text {
+    max-width: 757px;
+    margin-bottom: 28px;
+}
+
+.mail-input {
+    padding: 26px 60px;
+    color: #C9C9C9;
+    border-radius: 40px;
+    width: 100%;
+}
+
+.mail {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.mail-input-button {
+    padding: 28px 53px;
+    background-color: #686DE0;
+    border-radius: 40px;
+    color: #2C2C54;
+    font-family: 'Gilroy Bold';
+    position: absolute;
+    right: 0;
+}
+
+.mail-small-text {
+    font-size: 16px;
+    color: #5B5B5B;
+}
+
+.blue-mail-small-text {
+    font-family: 'Gilroy Bold';
+    color: #686DE0;
+}
+
+.form {
+    margin-bottom: 20px;
+    max-width: 1100px;
+    position: relative;
+}
+
+.line-forum {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center
+}
+
+.lines {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 1903px){
+    .therd-shape,
+    .fourth-shape,
+    .first-shape{
+        display: none;
+    }
+
+    .news-section {
+        background-color: #686DE0;
+    }
+
+    .forum-section {
+        background-color: #686DE0;
+    }
+}
+
+@media (max-width: 1562px){
+
+    .news-block {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .block-head-news {
+        margin: 0 0 65px 0;
+    }
+
+    .forum-body {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1293px){
+
+    .wanted-to-see-section {
+        margin-bottom: calc(340px + 420px);
+    }
+
+    .wanted-to-see-body {
+        gap: 40px;
+    }
+    .catalog {
+        padding: 0;
+    }
+
+    .bestfilm-card-img {
+        width: 600px;
+    }
+
+    .bestfilm-button {
+        padding: 15px 200px;
+    }
+
+    .bestfilm-body {
+        padding: 30px;
+    }
+
+    .forum-block-dis {
+        font-size: 15px;
+    }
+
+    .forum-block-title {
+        font-size: 20px;
+    }
+
+    .news-section {
+        background-color: #686DE0;
+    }
+
+    .forum-section {
+        background-color: #686DE0;
+    }
+}
+
+@media (max-width: 879px){
+    .wanted-to-see-section {
+        margin-bottom: 1440px;
+    }
+}
+
+@media (max-width: 869px){
+    .nav {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 767px) {
+    .h1 {
+        font-size: 40px;
+    }
+
+    .discripton-catalog {
+        max-width: 100%;
+    }
+
+    .button-catalog {
+        padding: 15px 30px; 
+        font-size: 20px;
+    }
+
+    .bestfilm-button {
+        padding: 10px 20px;
+        font-size: 16px; 
+    }
+
+    .mail-input {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+
+    .mail-input-button {
+        padding: 16px 20px;
+        font-size: 16px;
+    }
+
+    .mail-small-text {
+        font-size: 14px;
+    }
+
+    .blue-mail-small-text {
+        font-size: 14px;
+    }
+
+    .forum-block-text-more {
+        font-size: 14px;
+    }
+
+    .bestfilm-card-img {
+        width: 300px;
+    }
+
+    .forum-block-dis {
+        font-size: 11px;
+    }
+
+    .forum-block-text-croped {
+        width: 300px;
+    }
+
+    .forum-block-img img {
+        max-width: 0;
+    }
+
+    .forum-block-text {
+        max-width: 300px;
+
+    }
+
+    .forum-block-text {
+        border-radius: 20px;
+    }
+
+    .news-title a,
+    .news-discription {
+        font-size: 13px;
+        line-height: 51%;
+    }
+
+    .news-line-img {
+        width: 100px;
+    }
+
+    .lines {
+        gap: 30px;
+    }
+
+    body {
+        line-height: 23px;
+    }
+
+    .left-block {
+        padding: 30px;
+        max-width: 250px;
+        height: 200px;
+    }
+
+    .left-block p {
+        font-size: 11px;
+    }
+
+    .second-shape {
+        max-width: 245px;
+    }
+
+    .first-shape {
+        max-width: 245px;
+    }
+}
+
+
+@media (max-width: 479px) {
+    .h1 {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .title-button {
+        font-size: 11px;
+    }
+
+    .discripton-catalog {
+        font-size: 14px;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+
+    .right-menu {
+        gap: 20px;
+    }
+
+    .bestfilm-button,
+    .wanted-to-see-button,
+    .mail-input-button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .mail-input {
+        padding: 11px 15px;
+    }
+
+    .mail-text,
+    .mail-small-text,
+    .mail-text u {
+        font-size: 12px;
+    }
+
+    .blue-mail-small-text {
+        font-size: 12px;
+    }
+
+    .forum-block-text-more {
+        font-size: 12px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .right-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .bestfilm-button,
+    .wanted-to-see-button,
+    .mail-input-button {
+        padding: 15px 12px;
+        font-size: 12px;
+    }
+
+    .mail-text,
+    .mail-small-text {
+        font-size: 10px;
+    }
+
+    .blue-mail-small-text {
+        font-size: 10px;
+    }
+
+    .bestfilm-card-img {
+        width: 222px;
+    }
+
+    .button-catalog {
+        padding: 9px 7px;
+        font-size: 15px;
+    }
+
+    .wanted-to-see-card-img {
+        max-width: 150px;
+    }
+
+    .wanted-to-see-section{
+        margin-bottom: 534px;
+    }
+
+}
